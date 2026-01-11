@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+/* 全局設定 */
+body {
+    font-family: "微軟正黑體", "Microsoft JhengHei", Arial, sans-serif;
+    background-color: #f0f4f8; /* 柔和的灰藍色背景 */
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* 內容區塊置中 */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+/* 圖片設定 - 暫時用灰色區塊代替，直到你有圖片 */
+.banner-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    background-color: #ddd; 
+    min-height: 200px; /* 如果沒圖，至少撐開一點高度 */
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* 標題設定 */
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2em;
+}
+
+.subtitle {
+    text-align: center;
+    color: #666;
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #2980b9; /* 標題藍色 */
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+/* 列表設定 */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-left: 4px solid #2980b9;
+}
+
+/* 下載區塊與按鈕 */
+.download-zone {
+    text-align: center;
+    background-color: #eaf2f8;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+    border: 1px dashed #2980b9;
+}
+
+.btn-group {
+    margin-top: 20px;
+}
+
+/* 按鈕樣式 */
+.btn {
+    display: inline-block;
+    background-color: #27ae60;
+    color: white;
+    padding: 12px 25px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 30px; /* 圓角按鈕 */
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s, background 0.3s;
+}
+
+.btn:hover {
+    background-color: #2ecc71;
+    transform: translateY(-2px); /* 滑鼠移上去會微微浮起 */
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #888;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
